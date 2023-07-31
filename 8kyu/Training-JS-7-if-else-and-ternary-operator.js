@@ -6,7 +6,7 @@
 //number of hotdogs	     ||  price per unit (cents)
 //n < 5                           	100
 //n >= 5 and n < 10	                95
-//n >= 10	                            90
+//n >= 10	                        90
 //You can use if..else or ternary operator to complete it.
 
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
