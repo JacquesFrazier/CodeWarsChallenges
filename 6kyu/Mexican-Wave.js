@@ -47,9 +47,21 @@ function wave(str){
 
 var wave=w=>[...w].map((a,i)=>w.slice(0,i)+a.toUpperCase()+w.slice(i+1)).filter(a=>a!=w)
 
+
 //answer 4
 
 const wave = str => 
 	[...str].map((s, i) => 
       str.slice(0, i) + s.toUpperCase() + str.slice(i + 1) 
   ).filter(x => x != str);
+
+
+//answer 5
+
+function wave(str) {
+  return str.split('').map((l, i, a) => {
+    let c = a.slice();
+    c[i] = c[i].toUpperCase();
+    return c.join('');
+  }).filter((w, i) => w[i] !== ' ');
+}
