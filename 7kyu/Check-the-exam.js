@@ -52,3 +52,20 @@ function checkExam(array1, array2) {
     const score = array2.reduce(reducer, 0);
     return score < 0 ? 0 : score;
 }
+
+//answer 3
+
+checkExam = (x, y) => (x = y.reduce((s, e, i) => s + (e === x[i] ? 4 : e === '' ? 0 : -1), 0)) > 0 ? x : 0;
+
+//answer 4
+
+const checkExam = (array1, array2) => {
+  let result = array2.reduce(
+    (score, answer, i) => {
+      if(answer == array1[i]) return score += 4;
+      else if(answer == 0) return score += 0;
+      else return score - 1;
+    }
+  , 0);
+  return result < 0 ? 0 : result;
+}
