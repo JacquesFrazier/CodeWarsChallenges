@@ -9,7 +9,7 @@
 //    5. popElement(arr)   should pop an element from arr, and then return arr
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
 
-In the end, click "Submit" to submit your code pass this kata.
+//In the end, click "Submit" to submit your code pass this kata.
 
 //answer 
 
