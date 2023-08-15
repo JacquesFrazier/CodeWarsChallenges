@@ -34,6 +34,7 @@ function getLength(arr){
     arr.push(el)
     return arr
   }
+
   function popElement(arr){
     //pop an element from arr
     arr.pop(arr[2])
