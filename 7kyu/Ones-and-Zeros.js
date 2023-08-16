@@ -38,3 +38,18 @@ const binaryArrayToNumber = arr => {
   return parseInt(Number(arr.join('')), 2)
 };
 
+//answer 5
+
+const binaryArrayToNumber = arr => {
+
+arr.reverse();
+
+var count = 0;
+  
+  for(var i = 0; i < arr.length; i++){
+      if(arr[i] === 1){
+        count += Math.pow(2,i);
+      }
+  }
+    return count;
+};
