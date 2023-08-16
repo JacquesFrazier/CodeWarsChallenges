@@ -28,4 +28,9 @@ function binaryArrayToNumber(arr) {
 
 //answer 3
 
+const binaryArrayToNumber = arr => {
+  return arr.reduce((total, cur) => (total = total * 2 + cur), 0);
+}
+
+
 
