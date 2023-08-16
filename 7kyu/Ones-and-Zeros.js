@@ -32,5 +32,9 @@ const binaryArrayToNumber = arr => {
   return arr.reduce((total, cur) => (total = total * 2 + cur), 0);
 }
 
+//answer 4
 
+const binaryArrayToNumber = arr => {
+  return parseInt(Number(arr.join('')), 2)
+};
 
