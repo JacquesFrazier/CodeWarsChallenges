@@ -22,12 +22,17 @@ Rules:
 
 //answer 1
 
+function peopleWithAgeDrink(old) {
+  return old < 14 ? 'drink toddy' 
+    : old < 18 ? 'drink coke' 
+    : old < 21 ? 'drink beer' 
+    : 'drink whisky';
+};
+
+//answer 2
+
 const peopleWithAgeDrink = (age) =>
   age < 14 ? "drink toddy" :
   age < 18 ? "drink coke" :
   age < 21 ? "drink beer" : "drink whisky"
-
-
-//answer 2
-
 
