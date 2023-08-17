@@ -25,3 +25,19 @@ function capitalize(s){
 };
 
 //answer 3
+
+function capitalize(s) {
+  const S = s.toUpperCase()
+  let a = ""
+  let b = ""
+  for (let i = 0; i < s.length; ++i) {
+    if (i & 1) {
+      a += s[i]
+      b += S[i]
+    } else {
+      a += S[i]
+      b += s[i]
+    }
+  }
+  return [a, b]
+}
