@@ -41,3 +41,13 @@ function capitalize(s) {
   }
   return [a, b]
 }
+
+//answer 4
+
+function capitalize(s) {
+    return s.split('').reduce((acc, val, i) => {
+        acc[0] += i % 2 === 0 ? val.toUpperCase() : val.toLowerCase();
+        acc[1] += i % 2 === 0 ? val.toLowerCase() : val.toUpperCase();
+        return acc;
+    }, ['', '']);
+};
