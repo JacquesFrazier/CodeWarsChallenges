@@ -34,5 +34,11 @@ const solve = s => s.replace(/[A-Z]/g,'').length < s.length/2 ? s.toUpperCase() 
 
 //answer 3
 
-
+function solve(s){
+   let c = 0;
+   for (let i = 0; i < s.length; i++) {
+     if (s[i] === s[i].toUpperCase()) c++;
+   }
+   return (c > s.length/2) ? s.toUpperCase() : s.toLowerCase()
+}
 
