@@ -42,3 +42,8 @@ function solve(s){
    return (c > s.length/2) ? s.toUpperCase() : s.toLowerCase()
 }
 
+//answer 4
+
+function solve(s){
+  return s.replace(/[a-z]/g,'').length>s.length/2 ? s.toUpperCase() : s.toLowerCase()
+}
