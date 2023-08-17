@@ -30,7 +30,7 @@ function solve(s){
 
 //answer 2
 
-
+const solve = s => s.replace(/[A-Z]/g,'').length < s.length/2 ? s.toUpperCase() : s.toLowerCase()
 
 //answer 3
 
