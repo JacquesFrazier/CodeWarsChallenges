@@ -28,7 +28,6 @@ function distinct(a) {
   }
 
 //answer 3
-
 function distinct(a) {
   return Array.from(new Set(a));
 }
