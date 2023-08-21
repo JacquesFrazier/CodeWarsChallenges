@@ -11,7 +11,6 @@ Input -> Output
 [1, 2, 1, 1, 3, 2] -> [1, 2, 3]
 
 //answer 1
-
 function distinct(a) {
     let unique = [];
     for (i = 0; i < a.length; i++) {
@@ -23,7 +22,6 @@ function distinct(a) {
   }
 
 //answer 2
-
 function distinct(a) {
     return [...new Set(a)];
   }
