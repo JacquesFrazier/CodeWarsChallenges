@@ -6,6 +6,11 @@
 
 //The input array will always be valid! (odd-length >= 3)
 
+Examples
+//[1, 1, 2] ==> 2
+//[17, 17, 3, 17, 17, 17, 17] ==> 3
+
+
 //answer 1
 
 function stray(numbers){
