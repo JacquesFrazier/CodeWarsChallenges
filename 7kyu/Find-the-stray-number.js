@@ -33,3 +33,5 @@ function stray(numbers) {
   } 
   return a[a.length-1]
 }
+
+//answer 4
