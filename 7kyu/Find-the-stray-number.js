@@ -16,4 +16,6 @@ function stray(numbers){
 
 //answer 2
 
+const stray = nums => nums.reduce((a, b) => a ^ b);
+
 //answer 3
