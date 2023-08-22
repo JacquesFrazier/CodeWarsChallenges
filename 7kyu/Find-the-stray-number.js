@@ -24,3 +24,12 @@ function stray(numbers){
 const stray = nums => nums.reduce((a, b) => a ^ b);
 
 //answer 3
+
+function stray(numbers) {
+  var a = numbers.sort();
+  
+  if(a[0] != a[1]) {
+    return a[0]
+  } 
+  return a[a.length-1]
+}
