@@ -6,3 +6,14 @@
 
 //The input array will always be valid! (odd-length >= 3)
 
+//answer 1
+
+function stray(numbers){
+    for (var i in numbers){
+       if (numbers.indexOf(numbers[i]) === numbers.lastIndexOf(numbers[i])){return numbers[i]}
+    }
+  }
+
+//answer 2
+
+//answer 3
