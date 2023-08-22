@@ -35,3 +35,5 @@ function stray(numbers) {
 }
 
 //answer 4
+
+const stray = numbers => numbers.find(num => numbers.indexOf(num) === numbers.lastIndexOf(num));
