@@ -47,4 +47,11 @@ function sequenceSum(begin, end, step) {
 
 sequenceSum = (b, e, s) =>  b > e ? 0 : b + sequenceSum(b + s, e, s);
 
+//answer 5
 
+const sequenceSum = (begin, end, step) => {
+  if (begin > end)
+    return 0;
+  const n = Math.floor((end - begin) / step) + 1;
+  return (2 * begin + step * (n - 1)) * n / 2;
+};
