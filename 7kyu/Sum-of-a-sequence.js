@@ -43,4 +43,6 @@ function sequenceSum(begin, end, step) {
   return sum
 }
 
-//
+//answer 4
+
+
