@@ -45,4 +45,6 @@ function sequenceSum(begin, end, step) {
 
 //answer 4
 
+sequenceSum = (b, e, s) =>  b > e ? 0 : b + sequenceSum(b + s, e, s);
+
 
