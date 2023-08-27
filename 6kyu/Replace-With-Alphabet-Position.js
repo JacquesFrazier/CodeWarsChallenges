@@ -40,3 +40,5 @@ function alphabetPosition(text) {
   .map( letter => alphabet.indexOf(letter) + 1 )
   .join(' ')
 }
+
+//answer 4
