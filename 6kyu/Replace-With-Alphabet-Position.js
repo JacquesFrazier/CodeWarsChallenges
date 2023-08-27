@@ -26,5 +26,7 @@ function alphabetPosition(text) {
 
 //answer 2
 
+let alphabetPosition = (text) => text.toUpperCase().replace(/[^A-Z]/g, '').split('').map(ch => ch.charCodeAt(0) - 64).join(' ');
 
 //answer 3
+
