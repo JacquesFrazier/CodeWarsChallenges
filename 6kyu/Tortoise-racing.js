@@ -26,12 +26,14 @@ Tortoises don't care about fractions of seconds
 Think of calculation by hand using only integers (in your code use or simulate integer division)
 or Google: "convert decimal time to hours minutes seconds"
 
+
 //answer 1
 
 function race(v1, v2, g){
   let time=g/(v2-v1);
   return v2>v1 ? [Math.floor(time),Math.floor(time*60%60),Math.floor(time*3600%60)] : null;
 }
+
 
 //answer 2
 
@@ -45,6 +47,7 @@ function race(v1, v2, g) {
   
   return [h, m, s];
 }
+
 
 //answer 3
 
@@ -71,6 +74,7 @@ function race(v1, v2, g) {
     return [hours, minutes, seconds]
 }
 
+
 //answer 4
 
 function race (v1, v2, g) {
@@ -86,4 +90,13 @@ function race (v1, v2, g) {
   return [ hours, minutes, seconds ]
 }
 
+
 //answer 5
+
+function race(v1, v2, g) {
+    if (v1 >= v2) {
+      return null;
+    }
+    var time = new Date (g / (v2 - v1) * 3600 * 1000);
+    return [time.getHours(), time.getMinutes(), time.getSeconds()];
+}
