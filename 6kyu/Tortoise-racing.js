@@ -48,6 +48,28 @@ function race(v1, v2, g) {
 
 //answer 3
 
+function race(v1, v2, g) {
+    if (v1 > v2) return null
+    // d1 = v1 * t + g
+    // d2 = v2 * t
+    // v1 * t + g = v2 * t
+    // t (v2 - v1) = g
+    // t = g / (v2 - v1)
+    let time = g / (v2 - v1)
+    
+    let minutesPerHour = 60
+    let secondsPerHour = 60 * 60
+    let secondsPerMinute = 60
+    
+    let hours   = Math.floor(time)
+    let minutes = Math.floor(time * minutesPerHour 
+                            - hours * minutesPerHour)
+    let seconds = Math.floor(time * secondsPerHour
+                            - hours * secondsPerHour 
+                            - minutes * secondsPerMinute)
+    
+    return [hours, minutes, seconds]
+}
 
 //answer 4
 
