@@ -39,7 +39,6 @@ function firstNonConsecutive (arr) {
 }
 
 //answer 3
-
 function firstNonConsecutive(arr){
   var out = null;
   for(var i = 1; i < arr.length; i++){
