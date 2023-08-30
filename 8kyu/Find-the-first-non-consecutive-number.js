@@ -32,7 +32,6 @@ function firstNonConsecutive(arr) {
   }
 
 //answer 2
-
 function firstNonConsecutive (arr) {
     let result = arr.find((val, index) => val !== index + arr[0]);
 
