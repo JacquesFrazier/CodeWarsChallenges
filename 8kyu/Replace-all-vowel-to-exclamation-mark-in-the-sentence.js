@@ -13,3 +13,7 @@ function replace(s){
 }
 
 //answer 2
+
+function replace(s){
+  return s.replace(/[aeoiu]/ig, '!')  
+}
