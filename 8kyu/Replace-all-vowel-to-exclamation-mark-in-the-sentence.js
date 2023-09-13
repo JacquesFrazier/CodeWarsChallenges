@@ -6,7 +6,7 @@ replace("!Hi! Hi!") === "!H!! H!!"
 replace("aeiou") === "!!!!!"
 replace("ABCDE") === "!BCD!"
 
-//answer 
+//answer 1
 
 function replace(s){
   return s.replace(/[aeiouAEIOU]/gi,"!");  
