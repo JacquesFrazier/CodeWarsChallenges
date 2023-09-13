@@ -19,3 +19,6 @@ function replace(s){
 }
 
 //answer 3
+
+const replace = w => (w.split('').map(e => 'aeiou'.includes(e.toLowerCase()) ? '!' : e)).join('');
+
