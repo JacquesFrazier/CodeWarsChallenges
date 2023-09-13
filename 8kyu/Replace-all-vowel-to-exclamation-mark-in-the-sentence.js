@@ -17,3 +17,5 @@ function replace(s){
 function replace(s){
   return s.replace(/[aeoiu]/ig, '!')  
 }
+
+//answer 3
