@@ -26,3 +26,4 @@ function derive(coefficient,exponent) {
 }
 
 //answer 3
+const derive = (coefficient,exponent) => `${coefficient * exponent}x^${exponent-1}`
