@@ -24,3 +24,5 @@ function derive(coefficient,exponent) {
 function derive(coefficient,exponent) {
   return `${coefficient*exponent}x^${exponent-1}`
 }
+
+//answer 3
