@@ -13,3 +13,9 @@ Notes:
 
 //The output of this function should be a string
 //The exponent will never be 1, and neither number will ever be 0
+
+
+//answer 1
+function derive(coefficient,exponent) {
+  return `${coefficient*exponent}x^${exponent-1}`
+}
