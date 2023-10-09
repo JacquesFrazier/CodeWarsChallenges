@@ -53,3 +53,7 @@ function findNeedle(haystack) {
 
 
 //solution
+
+function findNeedle(haystack){
+    
+}
