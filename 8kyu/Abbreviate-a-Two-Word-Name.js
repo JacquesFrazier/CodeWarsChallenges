@@ -21,16 +21,18 @@ function abbrevName(name){
 
 
 
-
-
-
-
-
-
-
-
-
 //continue to pratice 
+
+
+
+
+
+
+
+
+
+
+
 
 //problem
 //Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
