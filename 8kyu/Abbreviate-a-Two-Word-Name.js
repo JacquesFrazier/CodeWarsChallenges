@@ -46,5 +46,5 @@ function abbrevName(name){
 //solution 
 
 function convertIntials(name){
-    
+    return name.split(' ').map(name => name[0]).join('.').toUpperCase();    
 }
