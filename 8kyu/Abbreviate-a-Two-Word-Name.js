@@ -45,6 +45,6 @@ function abbrevName(name){
 
 //solution 
 
-function convertIntials(){
+function convertIntials(name){
     
 }
