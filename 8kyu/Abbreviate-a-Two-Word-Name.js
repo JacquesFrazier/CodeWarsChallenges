@@ -44,3 +44,7 @@ function abbrevName(name){
 //patrick feeney => P.F
 
 //solution 
+
+function convertIntials(){
+    
+}
