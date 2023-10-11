@@ -79,7 +79,7 @@ function strCount(str, letter){
 
 //solution
 function strCount(str, letter){
-    return str.split('').filter((c) => c == letter).length
+    return str.split('').filter(c => c == letter).length
 }
 
 
