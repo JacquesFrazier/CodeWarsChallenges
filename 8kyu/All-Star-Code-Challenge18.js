@@ -33,3 +33,36 @@ function strCount(str, letter){
     return count;
     
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//continue to pratice 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
