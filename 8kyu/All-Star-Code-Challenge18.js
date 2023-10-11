@@ -75,3 +75,6 @@ function strCount(str, letter){
 //str_count("Hello", 'o'); // returns 1
 //str_count("Hello", 'l'); // returns 2
 //str_count("", 'z'); // returns 0
+
+
+//solution
