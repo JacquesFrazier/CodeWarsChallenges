@@ -77,7 +77,7 @@ function strCount(str, letter){
 //str_count("", 'z'); // returns 0
 
 
-//solution
+//solution => bad should of used split and length at the end
 function acceptStr(str, letter){
     return str.filter((c) => c == letter). 
 }
