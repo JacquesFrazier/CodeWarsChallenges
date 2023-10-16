@@ -45,7 +45,7 @@ function abbrevName(name){
 
 //patrick feeney => P.F
 
-//solution -> 
+//solution -> did better than before but you should have used name instead of c
 
 function convertName(name){
     return name.split(' ').map((c) => c == name[0]).join('.').toUpperCase();
