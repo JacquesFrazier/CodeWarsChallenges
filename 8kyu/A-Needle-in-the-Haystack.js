@@ -52,7 +52,8 @@ function findNeedle(haystack) {
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
 
-//solution good job sunday jacques
+//solution
 function findNeedle(haystack){
-return "found the needle at position " + haystack.indexOf('needle');
+    return "found the needle at position " + haystack.indexOf('needle');
 }
+
