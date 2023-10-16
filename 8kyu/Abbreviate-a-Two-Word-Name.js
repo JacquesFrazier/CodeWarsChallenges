@@ -45,8 +45,8 @@ function abbrevName(name){
 
 //patrick feeney => P.F
 
-//solution 
+//solution -> did ok but it's map instead of filter and you didn't use the toUpperCase element 
 
-function convertIntials(name){
-    return name.split(' ').map((name) => name[0]).join('.').toUpperCase();    
+function convertName(name){
+    return name.split(' ').filter(c => c == name[0]).join('.');
 }
