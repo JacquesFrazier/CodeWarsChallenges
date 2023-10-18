@@ -78,9 +78,8 @@ function strCount(str, letter){
 
 
 //solution => bad should of used split and length at the end
+
 function acceptStr(str, letter){
-    return str.filter((c) => c == letter). 
+    return str.split(' ').filter(c => c == letter).length
 }
-
-
 
