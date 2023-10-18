@@ -48,7 +48,6 @@ function abbrevName(name){
 //solution -> did better than before but you should have used name instead of c
 
 function convertName(name){
-    return name.split(' ').map((c) => c == name[0]).join('.').toUpperCase();
+    return name.split(' ').filter(name => name).join('.').toUpperCase();
 }
-
 
