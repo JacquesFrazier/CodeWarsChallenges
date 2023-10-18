@@ -45,9 +45,9 @@ function abbrevName(name){
 
 //patrick feeney => P.F
 
-//solution -> did better than before but you should have used name instead of c
+//solution ->
 
 function convertName(name){
-    return name.split(' ').filter(name => name).join('.').toUpperCase();
+    return name.split(' ').map(name => name).join('.').toUpperCase();
 }
 
