@@ -54,3 +54,8 @@ function findNeedle(haystack) {
 
 //solution -> good!
 
+function findNeedle(haystack){
+    return "found the needle at position " + haystack.indexOf("needle");
+}
+
+
