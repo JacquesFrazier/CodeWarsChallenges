@@ -65,11 +65,9 @@ function areYouPlayingBanjo(name) {
 
 //solution
 
-function banjoName(name){
-    return name[0].toLowerCase() === "r" ?  name + " plays banjo?" : name + " does not play banjo";
+function banjoPlay(name){
+    return name[0].toLowerCase() === 'r' ? name + " plays banjo" : name + " does not play banjo";
 }
-
-
 
 
 
