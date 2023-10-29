@@ -50,12 +50,13 @@ function maps(x){
 //solution 
 
 function map(x){
-    let double = [];
-    for(let i = 0; i < x.length; i++){
-        double.push(i*2);
-    }
-    return double;
+let double = [];
+for(let i = 0; i < x.length; i++){
+   double.push(x[i] * 2);
 }
+ return double;
+}
+ 
 
 //solution 2
 
