@@ -9,13 +9,12 @@
 //answer 1
 
 function maps(x){
-    let double = [];
-    for (let i = 0; i < x.length; i++) {
-      double.push(x[i] * 2);
-    };
-    return double;
-  }
-
+ let double = [];
+    for(i = 0; i < x.length; i++){
+        double.push(x[i] * 2);
+    }
+return double;
+}
 //answer 2
 
 function maps(x){
