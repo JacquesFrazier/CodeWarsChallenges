@@ -49,5 +49,5 @@ function paperwork(n, m) {
 //solution 
 
 function paperwork(n, m) {
-    return n === m ? n * m : n < 0 || m < 0 ? 0 : 'undefined';
+    return n > 0 && m > 0 ? n * m : 0;
 }
