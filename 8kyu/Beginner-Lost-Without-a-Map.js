@@ -51,7 +51,9 @@ function maps(x){
 //solution 
 
 function map(x){
-    
+    for(let i = 0; i < x.length; i++){
+        return x[i*2];
+    }
 }
 
 
