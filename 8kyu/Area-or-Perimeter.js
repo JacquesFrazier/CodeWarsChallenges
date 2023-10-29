@@ -59,7 +59,7 @@ const areaOrPerimeter = function(l , w) {
 //solution 
 
 function areaPerimeter(l, w){
-    return l === w ? l * w : 2*(l + w);
+    return l === w ? l * w : 2 * (l + w)
 }
 
 
