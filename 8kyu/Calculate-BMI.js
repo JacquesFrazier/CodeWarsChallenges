@@ -66,6 +66,6 @@ function bmi(weight, height) {
 //solution 
 
 function bmi(weight, height) {
-let calculate = weight / (height * 2);
-    return calculate <= 18.5 ? "Underweight" : calculate <= 25.0 ? "Normal" : calculate <= 30.0 ? "Overweight" : calculate > 30 : "Obese";
+let bodyMass = (weight) / (height * height);
+    return bodyMass <= 18.5 ? "Underweight" : bodyMass <= 25.0 ? "Normal" : bodyMass <= 30.0 ? "Overweight" : "Obese"
 }
