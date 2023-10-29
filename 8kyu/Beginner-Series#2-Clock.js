@@ -70,12 +70,12 @@ s = 1
 //solution
 
 function past(h, m, s){
-    
+
 0 <= h <= 23
 0 <= m <= 59
 0 <= s <= 59
-    
-    let milliseconds = (h * 36000000) + (m * 60000) + (s * 1000) ;
-    
-    return milliseconds;
+
+let milliseconds = (h * 3600000) + (m * 60000) + (s * 1000);
+
+return milliseconds;
 }
