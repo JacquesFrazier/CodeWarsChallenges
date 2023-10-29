@@ -51,13 +51,18 @@ function maps(x){
 //solution 
 
 function map(x){
+    let double = [];
     for(let i = 0; i < x.length; i++){
-        return x[i*2];
+        double.push(i*2);
     }
+    return double;
 }
 
+//solution 2
 
-
+function map(x){
+    return x.map((n) => n * 2)
+}
 
 
 
