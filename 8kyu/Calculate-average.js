@@ -54,3 +54,7 @@ function find_average(arr) {
 
 
 //answer 
+
+function find_average(array) {
+  
+}
