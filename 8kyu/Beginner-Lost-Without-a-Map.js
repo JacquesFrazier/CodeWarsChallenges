@@ -52,7 +52,7 @@ function maps(x){
 function map(x){
 let double = [];
  for(let i = 0; i < x.length; i++){
-  double.push([]*2)
+  double.push(x[i] * 2)
  }
  return double;
 }
@@ -61,7 +61,8 @@ let double = [];
 //solution 2
 
 function map(x){
-    return map((x) => x * 2)
+
+ return x.map(n => n * 2)
 }
 
 
