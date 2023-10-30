@@ -75,7 +75,7 @@ function past(h, m, s){
 0 <= m <= 59
 0 <= s <= 59
 
-let milliseconds = (h * 3600000) + (m * 60000) + (s * 1000);
+let milliseconds = (3600000 * h) + (60000 * m) + ( 1000 * s);
 
 return milliseconds;
 }
