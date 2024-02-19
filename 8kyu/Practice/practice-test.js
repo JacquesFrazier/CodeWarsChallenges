@@ -15,11 +15,6 @@
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
-//answer
-function findNeedle(array){
-  reutrn "found the needle at position " + indexOf("needle");
-)
-
 
 //2
 //problem
@@ -32,6 +27,13 @@ function findNeedle(array){
 //Sam Harris => S.H
 
 //patrick feeney => P.F
+
+//answer 
+function convert(name, letter){
+  return name.split('').filter(name => name[0] === letter).join(',').toUpperCase();  
+}
+
+
 
 
 //3
