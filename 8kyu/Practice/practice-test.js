@@ -57,14 +57,6 @@
 //name + " plays banjo" 
 //name + " does not play banjo"
 //Names given are always valid strings.
-function bango(name){
-  return name[0] === "r".toLowerCase() ? "plays banjo" : "does not play banjo"
-}
-
-function bango(name){
-  return name[0] === "r" || "R".toLowerCase? "plays banjo" : "does not play banjo"
-}
-
 
 
 //5
@@ -77,6 +69,10 @@ function bango(name){
 //6, 10 --> 32
 //3, 3 --> 9
 //Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
+
+function lengthWidth(l, w){
+  return l === w ? l*w : 2*(l+w)
+}
 
 
 //6
