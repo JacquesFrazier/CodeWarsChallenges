@@ -15,6 +15,10 @@
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
+//answer
+function findNeedle(array){
+  reutrn "found the needle at position " + indexOf("needle");
+)
 
 
 //2
