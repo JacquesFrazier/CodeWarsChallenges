@@ -1,5 +1,5 @@
 //TEST YOUR MIGHT!!!!
-//due 2/19/2024
+
 
 //1
 //question 
@@ -28,11 +28,6 @@
 
 //patrick feeney => P.F
 
-//answer 
-function convert(name, letter){
-  return name.split('').filter(name => name[0] === letter).join(',').toUpperCase();  
-}
-
 
 
 
@@ -49,6 +44,9 @@ function convert(name, letter){
 //str_count("Hello", 'o'); // returns 1
 //str_count("Hello", 'l'); // returns 2
 //str_count("", 'z'); // returns 0
+function accept(str, char){
+  return str.filter(e => e === char).length;
+}
 
 
 //4
