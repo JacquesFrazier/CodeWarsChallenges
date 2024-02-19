@@ -44,9 +44,7 @@
 //str_count("Hello", 'o'); // returns 1
 //str_count("Hello", 'l'); // returns 2
 //str_count("", 'z'); // returns 0
-function accept(str, char){
-  return str.filter(e => e === char).length;
-}
+
 
 
 //4
@@ -59,6 +57,14 @@ function accept(str, char){
 //name + " plays banjo" 
 //name + " does not play banjo"
 //Names given are always valid strings.
+function bango(name){
+  return name[0] === "r".toLowerCase() ? "plays banjo" : "does not play banjo"
+}
+
+function bango(name){
+  return name[0] === "r" || "R".toLowerCase? "plays banjo" : "does not play banjo"
+}
+
 
 
 //5
