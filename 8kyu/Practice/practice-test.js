@@ -49,7 +49,7 @@ function findNeedle(haystack){
 //str_count("", 'z'); // returns 0
 
 function accepts(str, letter){
-  return str.split('').filter(x=> x === letter).length
+  return str.split('').filter(x => x === letter).length
 } 
 
 
@@ -64,6 +64,9 @@ function accepts(str, letter){
 //name + " does not play banjo"
 //Names given are always valid strings.
 
+function playBanjo(name){
+  return name[0].toLowerCase() === 'r' ? name + " plays banjo" : name + " does not play banjo"; 
+}
 
 //5
 //problem
