@@ -32,6 +32,9 @@ function findNeedle(haystack){
 
 //patrick feeney => P.F
 
+function convertN(name, letter){
+  return name.split('').map((name)=> name[0] === letter).join('.').toUpperCase();
+}
 
 
 
