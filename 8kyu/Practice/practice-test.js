@@ -33,9 +33,9 @@ function findNeedle(haystack){
 //patrick feeney => P.F
 
 function convert(name){
-  return name.split('').map((name)=> name[0]).join('.').toUpperCase()
+  return name.split(' ').map((name)=> name[0]).join('.').toUpperCase()
 }
-
+//did split('') instead of split(' ') but its alright
 
 //3
 //problem 
