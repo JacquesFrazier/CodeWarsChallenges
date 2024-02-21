@@ -145,7 +145,12 @@ Examples(Operator, value1, value2) --> output
 
 
 //9
+//problem
+//Given an array of integers, return a new array with each value doubled.
 
+//For example:
+[1, 2, 3] --> [2, 4, 6]
 
 //10
+
 
