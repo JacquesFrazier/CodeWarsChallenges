@@ -129,7 +129,7 @@ Examples(Operator, value1, value2) --> output
 
    switch(operation){
       case '+' :
-       operation = value1 + value2;
+       return operation = value1 + value2;
        break;
       case '-' :
        operation = value1 - value2;
