@@ -125,25 +125,7 @@ Examples(Operator, value1, value2) --> output
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7
 
- function (operation, value1, value2){
 
-   switch(operation){
-      case '+' :
-       return operation = value1 + value2;
-       break;
-      case '-' :
-       operation = value1 - value2;
-       break;
-      case '*' :
-       operation = value1 * value2;
-       break;
-      case '/' :
-       operation = value1 / value2;
-       break;
-    }
-   return operation;
- } 
-  
 
 //8
 //problem
@@ -162,6 +144,9 @@ Examples(Operator, value1, value2) --> output
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
 //In the end, click "Submit" to submit your code pass this kata.
 
+  function animal(obj){
+    return  `This ${obj.color} ${obj.name} has ${obj.legs} legs`;
+  }
 
 //9
 //problem
