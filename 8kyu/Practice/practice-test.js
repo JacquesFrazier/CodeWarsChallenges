@@ -144,9 +144,7 @@ Examples(Operator, value1, value2) --> output
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
 //In the end, click "Submit" to submit your code pass this kata.
 
-  function animal(obj){
-    return  `This ${obj.color} ${obj.name} has ${obj.legs} legs`;
-  }
+
 
 //9
 //problem
@@ -155,7 +153,11 @@ Examples(Operator, value1, value2) --> output
 //For example:
 [1, 2, 3] --> [2, 4, 6]
 
+function arr(n){
+let newArr = [];
 
+  return n.map((n)=> newArr[n*2])
+}
 
 //10
 //problem 
