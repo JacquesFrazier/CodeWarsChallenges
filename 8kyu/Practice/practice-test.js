@@ -153,11 +153,9 @@ Examples(Operator, value1, value2) --> output
 //For example:
 [1, 2, 3] --> [2, 4, 6]
 
-function arr(n){
-let newArr = [];
+//do two versions of solution
 
-  return n.map((n)=> newArr[n*2])
-}
+
 
 //10
 //problem 
@@ -176,4 +174,10 @@ s = 1
 0 <= m <= 59
 0 <= s <= 59
 
+function time(h, m, s){
+  let minutes = m * 60000
+  let seconds = s * 1000;
+  
+  return h * m * s;
+}
 
