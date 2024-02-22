@@ -174,10 +174,3 @@ s = 1
 0 <= m <= 59
 0 <= s <= 59
 
-function time(h, m, s){
-  let minutes = m * 60000
-  let seconds = s * 1000;
-  
-  return h * m * s;
-}
-
