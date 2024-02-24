@@ -176,7 +176,7 @@ function animal(obj){
 
 //do two versions of solution
 function int(arr){
-  return arr.map(x=>x*2)
+  return arr.map(x => x * 2)
 }
 
 function int(arr){
@@ -184,7 +184,7 @@ function int(arr){
   for(let i = 0; i < arr.length; i++){
     newArr.push(arr[i] * 2)
   }
-  return newArr
+  return newArr;
 }
 
 
@@ -204,4 +204,11 @@ s = 1
 0 <= h <= 23
 0 <= m <= 59
 0 <= s <= 59
+
+function time(h, s, m){
+  let milliseconds = (h * 3600000) + (m * 60000) + (s * 1000);
+  return milliseconds;
+}
+
+
 
