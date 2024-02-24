@@ -174,19 +174,6 @@ function arguments(operation, value1, value2){
 
 //do two versions of solution
 
-//solution 1
-function integers(arr){
-  let newArr = [];
-  for(let i = 0; i < arr.length; i++){
-    return newArr.push(arr[i*2]);
-  }
-}
-
-//solution 2
-function integer(arr){
-  arr.split('').map(arr*2).join('');
-  //might just need map 
-}
 
 //10
 //problem 
@@ -205,3 +192,7 @@ s = 1
 0 <= m <= 59
 0 <= s <= 59
 
+function time(h, m, s){
+  let time = (h * 3600000) * (m * 60000) * (s * 1000);
+  return time;
+}
