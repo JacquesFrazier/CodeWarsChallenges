@@ -163,9 +163,6 @@ function arguments(operation, value1, value2){
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
 //In the end, click "Submit" to submit your code pass this kata.
 
-function animal(obj){
-  return `This ${obj.color} ${obj.name} has ${obj.legs}.`
-}
 
 
 //9
@@ -177,7 +174,19 @@ function animal(obj){
 
 //do two versions of solution
 
+//solution 1
+function integers(arr){
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    return newArr.push(arr[i*2]);
+  }
+}
 
+//solution 2
+function integer(arr){
+  arr.split('').map(arr*2).join('');
+  //might just need map 
+}
 
 //10
 //problem 
