@@ -167,7 +167,6 @@ function animal(obj){
   return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 }
 
-
 //9
 //problem
 //Given an array of integers, return a new array with each value doubled.
@@ -176,6 +175,17 @@ function animal(obj){
 [1, 2, 3] --> [2, 4, 6]
 
 //do two versions of solution
+function int(arr){
+  return arr.map(x=>x*2)
+}
+
+function int(arr){
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    newArr.push(arr[i] * 2)
+  }
+  return newArr
+}
 
 
 //10
