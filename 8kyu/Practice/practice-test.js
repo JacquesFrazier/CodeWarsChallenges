@@ -226,6 +226,11 @@ function time(h, s, m){
 
 //Note! The input is a Real number (actual type is language dependent) and is >= 0. 
 //The result should be an Integer.
+function speed(km){
+  let cm = 27.7778;
+  let new = km * cm;
+  return Math.floor(new)
+}
 
 
 //12
