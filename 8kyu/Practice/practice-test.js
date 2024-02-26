@@ -272,9 +272,7 @@ Array's length > 2.
 
 //More details here: https://en.wikipedia.org/wiki/Comma-separated_values
 //Note: you shouldn't escape the \n, it should work as a new line.
-function cSV(arr){
-  return arr.join(map(str, arr)) + '\n'
-}
+//Give me 2 solutions 
 
 
 //15
@@ -286,5 +284,7 @@ function cSV(arr){
 //if bmi <= 30.0 return "Overweight"
 //if bmi > 30 return "Obese"
 
-
+function calculate(bmi){
+  return bmi <= 18.5 ? "Underweight" : bmi <= 25.0 ? "Normal" : bmi <= 30.0 ? "Overweight" : "Obese";
+}
 
