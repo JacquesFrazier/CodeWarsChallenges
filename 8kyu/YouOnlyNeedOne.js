@@ -15,3 +15,9 @@ function check(a,x){
 function check(a,b){
   return a.includes(b);
 };
+
+//solution 3
+check = (a,x) => a.indexOf(x) >= 0
+
+//solution 4
+check=(a,x)=>a.some(v=>v==x)
