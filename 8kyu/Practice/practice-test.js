@@ -239,8 +239,11 @@ n=-5, m=5:  0
 
 
 //13
+//Complete the function which converts a binary number (given as a string) to a decimal number.
+
 
 //14
+
 
 //15
 
