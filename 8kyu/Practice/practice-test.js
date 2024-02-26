@@ -216,6 +216,16 @@ function time(h, s, m){
   return milliseconds;
 }
 
+//11
+
+//12
+
+//13
+
+//14
+
+//15
+
 
 
 
