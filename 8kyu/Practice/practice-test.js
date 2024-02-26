@@ -245,13 +245,12 @@ return Math.floor(s * 27.7778);
 n= 5, m=5: 25
 n=-5, m=5:  0
 
-function rule(n, m){
-  return n > 0 || m > 0 ? n * m : 0
-}
 
 //13
 //Complete the function which converts a binary number (given as a string) to a decimal number.
-
+function convertBin(bin){
+  return parseInt(bin, 2)
+}
 
 //14
 //Create a function that returns the CSV representation of a two-dimensional numeric array.
