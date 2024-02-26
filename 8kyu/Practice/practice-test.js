@@ -229,9 +229,12 @@ function time(h, s, m){
 function speed(km){
   let cm = 27.7778;
   let new = km * cm;
-  return Math.floor(new)
+  return Math.floor(new);
 }
-
+//or
+function cockroachSpeed(s) {
+return Math.floor(s * 27.7778);
+}
 
 //12
 //Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
@@ -242,6 +245,9 @@ function speed(km){
 n= 5, m=5: 25
 n=-5, m=5:  0
 
+function rule(n, m){
+  return n > 0 || m > 0 ? n * m : 0
+}
 
 //13
 //Complete the function which converts a binary number (given as a string) to a decimal number.
