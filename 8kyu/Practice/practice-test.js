@@ -280,12 +280,7 @@ function cSV(n){
 }
 
 //solution 2
-function cSV(n){
-  let new = 0;
-  for(let i = 0; i < n.length; i++){
-    
-  }
-}
+
 
 //15
 //problem 
