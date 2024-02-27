@@ -296,3 +296,9 @@ function bmi(weight, height){
   return calculation <= 18.5 ? "Underweight" : calculation <= 25.0 ? "Normal" : calculation <= 30.0 ? "Overweight" : "Obese";
 }
 
+//16
+//problem
+//Write a function which calculates the average of the numbers in a given list.
+
+//Note: Empty arrays should return 0.
+//Give me 2 solutions 
