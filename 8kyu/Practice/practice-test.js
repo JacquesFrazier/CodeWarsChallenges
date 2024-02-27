@@ -274,6 +274,18 @@ Array's length > 2.
 //Note: you shouldn't escape the \n, it should work as a new line.
 //Give me 2 solutions 
 
+//solution 1
+function cSV(n){
+  return n.join('\n')
+}
+
+//solution 2
+function cSV(n){
+  let new = 0;
+  for(let i = 0; i < n.length; i++){
+    
+  }
+}
 
 //15
 //problem 
