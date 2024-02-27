@@ -291,4 +291,8 @@ function cSV(n){
 //if bmi <= 30.0 return "Overweight"
 //if bmi > 30 return "Obese"
 
+function bmi(weight, height){
+  let calculation = ((weight) / (height * height))
+  return calculation <= 18.5 ? "Underweight" : calculation <= 25.0 ? "Normal" : calculation <= 30.0 ? "Overweight" : "Obese";
+}
 
