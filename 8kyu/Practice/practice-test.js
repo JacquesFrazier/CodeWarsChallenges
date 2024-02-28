@@ -245,6 +245,10 @@ return Math.floor(s * 27.7778);
 n= 5, m=5: 25
 n=-5, m=5:  0
 
+function classWorkStudent(n, m){
+  return n > 0 && m > 0 ? n * m : 0;
+}
+
 
 //13
 //Complete the function which converts a binary number (given as a string) to a decimal number.
