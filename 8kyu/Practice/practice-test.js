@@ -308,19 +308,12 @@ function bmi(weight, height){
 //Give me 2 solutions 
 
 //solution 1
-function calculation(arr){
-  return arr.reduce((a, b) => a + b)/ arr.length
-}
+
 
 //solution 2
-function calculation(arr){
-  let total = 0;
-  for(let i = 0; i < arr.length; i++){
-    total+=arr[i];
-  }
-  return total/arr.length;
+
 }
 
-//solution 2
+
 
 
