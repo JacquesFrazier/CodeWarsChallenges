@@ -284,13 +284,7 @@ function cSV(n){
 }
 
 //solution 2
-function cSV(n){
-  let str= '';
-  for(let i = 0; i < n.length; i++){
-    str.push(n[i]) + '/n';
-  }
-  return str.slice(1, 0)
-}
+
 
 //15
 //problem 
@@ -312,3 +306,21 @@ function bmi(weight, height){
 
 //Note: Empty arrays should return 0.
 //Give me 2 solutions 
+
+//solution 1
+function calculation(arr){
+  return arr.reduce((a, b) => a + b)/ arr.length
+}
+
+//solution 2
+function calculation(arr){
+  let total = 0;
+  for(let i = 0; i < arr.length; i++){
+    total+=arr[i];
+  }
+  return total/arr.length;
+}
+
+//solution 2
+
+
