@@ -308,25 +308,14 @@ function bmi(weight, height){
 //Give me 2 solutions 
 
 //solution 1
-function calculates(arr){
-  if( arr === []){
-    return 0;
-  }
-  return arr.reduce((a, b)=> a + b)/ arr.length;
-}
+
 
 //solution 2
 
-function calculates(arr){
-  if(arr===[]){
-    return 0;
-  }
-  let total = [];
-  for(let i = 0; i < arr.length; i++){
-    total += arr[i]
-  }
-  return total/arr.length
-}
+//17
+
+//18
+
 
 
 
