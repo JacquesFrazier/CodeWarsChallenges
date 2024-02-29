@@ -312,6 +312,7 @@ function bmi(weight, height){
 
 //solution 2
 
+
 //17
 //problem 
 //The first century spans from the year 1 up to 
@@ -320,7 +321,11 @@ function bmi(weight, height){
 //Task
 //Given a year, return the century it is in.
 
+
 //18
+//problem 
+//Implement a function which convert the given boolean value into its string representation.
+//Note: Only valid inputs will be given.
 
 
 
