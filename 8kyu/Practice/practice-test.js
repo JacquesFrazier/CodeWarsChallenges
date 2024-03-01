@@ -309,26 +309,9 @@ function bmi(weight, height){
 //Give me 2 solutions 
 
 //solution 1
-function calculates(n){
-  if(n === 0){
-    return 0
-  }
-  return n.map((a, b)=> a + b) / n.length
-}
+
 
 //solution 2
-function calculates(n){
-  if(n === 0){
-    return 0
-  }
-  let sum = 0;
-  for(let i = 0; i < n.length; i++){
-    sum += n[i]
-  }
-  return sum / n.length
-}
-
-
 
 
 //17
@@ -345,7 +328,9 @@ function calculates(n){
 1601 --> 17
 2000 --> 20
 
-
+function century(cen){
+  return Math.ceil(cen/100);
+}
 
 //18
 //problem 
