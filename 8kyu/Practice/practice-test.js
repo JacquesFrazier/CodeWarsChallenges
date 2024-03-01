@@ -330,6 +330,7 @@ function calculates(n){
 
 
 
+
 //17
 //problem 
 //The first century spans from the year 1 up to 
