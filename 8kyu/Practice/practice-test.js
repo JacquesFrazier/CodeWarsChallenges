@@ -366,10 +366,6 @@ function strToNum(str){
 
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
-function strToArr(str){
 
-  return str.split('')
-  
-}
 
 
