@@ -367,5 +367,12 @@ function strToNum(str){
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
 
+//21
+//Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+
+
+
+
 
 
