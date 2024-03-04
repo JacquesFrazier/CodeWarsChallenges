@@ -368,11 +368,20 @@ function strToNum(str){
 
 
 //21
+//question
 //Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
 
+//22
+//question
+// Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+//example:
+// 35231 => [1,3,2,5,3]
+// 0 => [0]
 
 
+//23
 
 
 
