@@ -309,26 +309,6 @@ function bmi(weight, height){
 //Note: Empty arrays should return 0.
 //Give me 2 solutions 
 
-//solution 1
-funtion cal(arr){
-  if(arr === 0){
-    return 0
-  }
-  return arr.reduce((a, b) => a + b ) / arr.length
-}
-
-//solution 2
-function cal(arr){
-  if(arr === 0){
-    return 0;
-  }
-  let avg = 0;
-  for(let i = 0; i < arr.length; i++){
-     avg += arr[i]; 
-  }
-  return avg / arr.length;
-}
-
 
 
 //17
@@ -354,6 +334,9 @@ function century(cen){
 //Implement a function which convert the given boolean value into its string representation.
 //Note: Only valid inputs will be given.
 
+function convert(boolean){
+  return boolean ? "true" : "false";
+}
 
 //19
 //problem 
