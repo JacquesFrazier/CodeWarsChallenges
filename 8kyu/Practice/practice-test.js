@@ -338,6 +338,7 @@ function convert(boolean){
   return boolean ? "true" : "false";
 }
 
+
 //19
 //problem 
 
@@ -352,6 +353,9 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 
+function strToNum(str){
+  return Number(str)
+}
 
 //20
 //question
