@@ -284,6 +284,13 @@ function cSV(n){
 }
 
 //solution 2
+function cSV(n){
+  let str = '';
+  for(let i = 0; i < n.length; i++){
+    return str += n.toString() + "\n";  
+  }
+  return str.slice(0, -1)
+}
 
 
 
