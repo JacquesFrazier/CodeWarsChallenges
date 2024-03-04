@@ -284,13 +284,7 @@ function cSV(n){
 }
 
 //solution 2
-function cSV(n){
-  let str = '';
-  for(let i = 0; i < n.length; i++){
-    return str += n.toString() + "\n";  
-  }
-  return str.slice(0, -1)
-}
+
 
 
 
@@ -316,9 +310,25 @@ function bmi(weight, height){
 //Give me 2 solutions 
 
 //solution 1
-
+funtion cal(arr){
+  if(arr === 0){
+    return 0
+  }
+  return arr.reduce((a, b) => a + b ) / arr.length
+}
 
 //solution 2
+function cal(arr){
+  if(arr === 0){
+    return 0;
+  }
+  let avg = 0;
+  for(let i = 0; i < arr.length; i++){
+     avg += arr[i]; 
+  }
+  return avg / arr.length;
+}
+
 
 
 //17
