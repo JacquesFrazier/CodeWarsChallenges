@@ -427,9 +427,6 @@ toBinary(5)  /* should return 101 */
 toBinary(11) /* should return 1011 */
 
 //solution 
-function ToBinary(n){
-  return String(n).parseInt(2)
-}
 
 
 //24
@@ -445,4 +442,7 @@ function ToBinary(n){
 //I is misinterpreted as 1
 //The test cases contain numbers only by mistake.
 
-
+//solution 
+function correction(str){
+  return str.contains(5) ? String(S) : str.contains(0) ? String(O) : str.contains(1) ? String(I) : "nothing"
+}
