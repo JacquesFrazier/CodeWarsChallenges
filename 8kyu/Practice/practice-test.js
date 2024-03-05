@@ -292,8 +292,6 @@ function cSV(n){
   return str.slice(0, -1)
 }
 
-
-
 //15
 //problem 
 //Write function bmi that calculates body mass index (bmi = weight / height2).
@@ -315,7 +313,22 @@ function bmi(weight, height){
 //Note: Empty arrays should return 0.
 //Give me 2 solutions 
 
+//solution 1
+function cal(arr){
+  return arr.length === 0 ? 0 : arr.reduce((a, b) => a + b) / arr.length;
+}
 
+//solution 2
+function cal(arr){
+  if(arr.length === 0){
+    return 0
+  }
+  let sum = 0;
+  for(let i = 0; i < arr.length; i++){
+    sum += arr[i];
+  }
+  return sum / arr.length;
+}
 
 //17
 //problem 
