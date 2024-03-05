@@ -398,7 +398,7 @@ function convert(n){
 
 //solution
 function boolean(b){
-  return b ? "Yes" : "No"
+  return b ? "Yes" : "No";
 }
 
 
@@ -410,6 +410,10 @@ function boolean(b){
 // 35231 => [1,3,2,5,3]
 // 0 => [0]
 
+//solution 
+function reverse(arr){
+  return arr.split('').reverse()
+}
 
 //23
 //question 
