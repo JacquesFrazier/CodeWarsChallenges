@@ -385,6 +385,9 @@ function strToNum(str){
 
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
+function convert(n){
+  return n.split(' ');
+}
 
 
 //21
