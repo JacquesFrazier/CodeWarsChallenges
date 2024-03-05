@@ -411,9 +411,7 @@ function boolean(b){
 // 0 => [0]
 
 //solution 
-function reverse(arr){
-  return arr.split('').reverse()
-}
+
 
 //23
 //question 
@@ -428,6 +426,10 @@ toBinary(1)  /* should return 1 */
 toBinary(5)  /* should return 101 */
 toBinary(11) /* should return 1011 */
 
+//solution 
+function ToBinary(n){
+  return String(n).parseInt(2)
+}
 
 
 //24
