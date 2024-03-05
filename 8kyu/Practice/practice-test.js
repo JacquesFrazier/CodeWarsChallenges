@@ -442,7 +442,6 @@ toBinary(11) /* should return 1011 */
 //I is misinterpreted as 1
 //The test cases contain numbers only by mistake.
 
-//solution 
-function correction(str){
-  return str.contains(5) ? String(S) : str.contains(0) ? String(O) : str.contains(1) ? String(I) : "nothing"
-}
+//Give 2 solutions
+
+
