@@ -372,6 +372,7 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 
+//solution
 function strToNum(str){
   return Number(str)
 }
@@ -385,6 +386,7 @@ function strToNum(str){
 
 // "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
+//solution
 function convert(n){
   return n.split(' ');
 }
@@ -394,6 +396,10 @@ function convert(n){
 //question
 //Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
 
+//solution
+function boolean(b){
+  return b ? "Yes" : "No"
+}
 
 
 //22
