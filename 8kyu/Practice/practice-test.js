@@ -411,7 +411,9 @@ function boolean(b){
 // 0 => [0]
 
 //solution 
-
+function digits(n){
+  return String(n).split('').map(Number).reverse()
+}
 
 //23
 //question 
