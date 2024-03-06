@@ -429,9 +429,7 @@ toBinary(5)  /* should return 101 */
 toBinary(11) /* should return 1011 */
 
 //solution 
-function ToBinary(n)[
-  return parseInt(n, String(2))
-}
+
 
 //24
 //problem
@@ -445,7 +443,18 @@ function ToBinary(n)[
 //O is misinterpreted as 0
 //I is misinterpreted as 1
 //The test cases contain numbers only by mistake.
-
 //Give 2 solutions
 
+//solution 1
+function convert(n){
+  const mispelled = {
+    5: 'S', 
+    0: 'O', 
+    1: 'I'
+  }
+  return n.replace(/[501]/g, 'SOI')
+}
 
+function convert(n){
+  return n.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I')
+}
