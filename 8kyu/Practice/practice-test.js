@@ -446,15 +446,11 @@ toBinary(11) /* should return 1011 */
 //Give 2 solutions
 
 //solution 1
-function convert(n){
-  const mispelled = {
-    5: 'S', 
-    0: 'O', 
-    1: 'I'
-  }
-  return n.replace(/[501]/g, 'SOI')
-}
 
+
+//solution 2
 function convert(n){
   return n.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I')
 }
+
+
