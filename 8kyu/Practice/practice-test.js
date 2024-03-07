@@ -546,7 +546,11 @@ Hello, Mr. Spock
 ('3♦') -> return 'diamonds'
 ('3♥') -> return 'hearts'
 ('3♠') -> return 'spades'
+//Give me 2 solutions 
 
-//solution 
+
+//solution 1
+
+//solution 2
 
 
