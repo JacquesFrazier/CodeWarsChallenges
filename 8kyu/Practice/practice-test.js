@@ -429,9 +429,7 @@ toBinary(5)  /* should return 101 */
 toBinary(11) /* should return 1011 */
 
 //solution 
-function ToBinary(n){
-  return parseInt(n.toString())
-}
+
 
 //24
 //problem
@@ -448,7 +446,14 @@ function ToBinary(n){
 //Give 2 solutions
 
 //solution 1
-
+function cha(n){
+  const correction = {
+    5:'S', 
+    0:'O', 
+    1:'I'
+  }
+  return n.reduce([501]g, n[correction])
+}
 
 //solution 2
 function convert(n){
