@@ -480,6 +480,7 @@ countBy(2,5) === [2,4,6,8,10]
 //Example
 //For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 
+//solution
 
 
 //27
@@ -498,6 +499,7 @@ countBy(2,5) === [2,4,6,8,10]
 
 //Hint: Don't forget to check for bad values like null/undefined
 
+//solution
 
 
 //28
@@ -514,13 +516,22 @@ countBy(2,5) === [2,4,6,8,10]
 For example:
 
 "GCAT"  =>  "GCAU"
-//The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
+//The input string can be of arbitrary length - in particular, it may be empty. 
+//All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
-
+//solution
 
 
 //29
+//problem 
 
+//The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. 
+//It is your job to fix the code and get the program working again!
 
+//Example output:
+
+Hello, Mr. Spock
+
+//solution
 
 //30
