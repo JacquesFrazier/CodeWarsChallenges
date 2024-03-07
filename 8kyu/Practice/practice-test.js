@@ -464,11 +464,5 @@ countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
 countBy(2,5) === [2,4,6,8,10]
 
 //solution 
-function countBy(n, m){
-  let new = [];
-  for(let i = 0; i < n.length; i++){
-    return new.push(n+m) 
-  }
-}
 
 //26
