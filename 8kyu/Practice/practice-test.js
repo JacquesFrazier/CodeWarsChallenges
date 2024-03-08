@@ -466,6 +466,13 @@ countBy(2,5) === [2,4,6,8,10]
 
 //solution 
 
+function countBy(n, x){
+  let m = 0;
+  for(let i = 0; i <= x; i++){
+    m += n[i];
+  }
+  return m;
+}
 
 
 //26
