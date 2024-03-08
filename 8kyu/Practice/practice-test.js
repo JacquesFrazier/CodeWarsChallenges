@@ -491,6 +491,7 @@ function countBy(n, x){
 //solution
 
 
+
 //27
 //question
 //Consider an array/list of sheep where some sheep may be missing from their place.
@@ -555,7 +556,6 @@ Hello, Mr. Spock
 ('3♥') -> return 'hearts'
 ('3♠') -> return 'spades'
 //Give me 2 solutions 
-
 
 //solution 1
 
