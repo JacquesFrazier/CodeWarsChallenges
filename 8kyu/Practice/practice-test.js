@@ -447,14 +447,7 @@ function ToBinary(n){
 //Give 2 solutions
 
 //solution 1
-function convert(n){
-  let correction = {
-    5: 'S', 
-    0: 'O', 
-    1: 'I'
-  }
-  return n.replace(/[501]/g, change => change[correction])
-}
+
 
 //solution 2
 function convert(n){
