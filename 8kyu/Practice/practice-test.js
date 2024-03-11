@@ -446,20 +446,12 @@ function ToBinary(n){
 //The test cases contain numbers only by mistake.
 //Give 2 solutions
 
-//solution 1
-function convert(n){
-  const correction = {
-    '5': 'S', 
-    '0': 'O', 
-    '1': 'I'
-  }
-  return n.replace(/[501]/g, c => c[correction])
-}
 
 //solution 2
 function convert(n){
   return n.replace(/5/g, 'S').replace(/0/g, 'O').replace(/1/g, 'I')
 }
+
 
 //25
 //problem 
@@ -505,7 +497,7 @@ function countBy(n, x){
 //We need a function that counts the number of sheep present in the array (true means present).
 
 //For example,
-//[true,  true,  true,  false,
+ [true,  true,  true,  false,
   true,  true,  true,  true ,
   true,  false, true,  false,
   true,  false, false, true ,
@@ -536,7 +528,9 @@ For example:
 //All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
 //solution
-
+function translate(dna){
+  return dna.includes('T') ? 'U' : 0;
+}
 
 //29
 //problem 
