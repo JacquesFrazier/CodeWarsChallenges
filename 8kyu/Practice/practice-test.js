@@ -528,9 +528,6 @@ For example:
 //All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
 //solution
-function translate(dna){
-  return dna.includes('T') ? 'U' : 0;
-}
 
 //29
 //problem 
@@ -543,7 +540,9 @@ function translate(dna){
 Hello, Mr. Spock
 
 //solution
-
+function greet(sr, name){
+  return "Hello, " + sr + name; 
+}
 
   
 //30
