@@ -557,12 +557,14 @@ Hello, Mr. Spock
 //solution 1
 
 function cards(c){
-  return c.includes('♣') ? "clubs"
+  return 
+    c.includes('♣') ? "clubs"
     : c.includes('♦') ? "diamonds"
     : c.includes('♥') ? "hearts"
     : c.includes('♠') ? 'spades'
     : 0;
 }
+
 
 //solution 2
 
