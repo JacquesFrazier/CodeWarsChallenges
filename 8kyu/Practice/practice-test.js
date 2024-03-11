@@ -540,9 +540,6 @@ For example:
 Hello, Mr. Spock
 
 //solution
-function greet(sr, name){
-  return "Hello, " + sr + name; 
-}
 
   
 //30
@@ -558,6 +555,14 @@ function greet(sr, name){
 //Give me 2 solutions 
 
 //solution 1
+
+function cards(c){
+  return c.includes('♣') ? "clubs"
+    : c.includes('♦') ? "diamonds"
+    : c.includes('♥') ? "hearts"
+    : c.includes('♠') ? 'spades'
+    : 0;
+}
 
 //solution 2
 
