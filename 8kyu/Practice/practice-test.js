@@ -446,6 +446,15 @@ function ToBinary(n){
 //The test cases contain numbers only by mistake.
 //Give 2 solutions
 
+//solution 1
+function convert(n){
+  const correction = {
+    '5': 'S',
+    '0': 'O', 
+    '1': 'I'
+  }
+  return n.replace(/[501]g/, c => correction[c])
+}
 
 //solution 2
 function convert(n){
