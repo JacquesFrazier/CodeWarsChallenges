@@ -552,6 +552,7 @@ Hello, Mr. Spock
 function starship(name){
   return "Hello, " + name;
 }
+
   
 //30
 //problem 
@@ -578,5 +579,7 @@ function cards(c){
 
 
 //solution 2
-
+function cards(c){
+ return c.charAt(c.length-1)
+}
 
