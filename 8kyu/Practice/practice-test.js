@@ -579,7 +579,4 @@ function cards(c){
 
 
 //solution 2
-function cards(c){
- return c.charAt(c.length-1)
-}
 
