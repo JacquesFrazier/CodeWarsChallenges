@@ -537,9 +537,6 @@ For example:
 //All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
 //solution
-function body(DNA){
-  return DNA.replace('T', 'U')
-}
 
 //29
 //problem 
@@ -552,7 +549,9 @@ function body(DNA){
 Hello, Mr. Spock
 
 //solution
-
+function starship(name){
+  return "Hello, " + name;
+}
   
 //30
 //problem 
