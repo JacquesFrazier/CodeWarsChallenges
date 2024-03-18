@@ -515,6 +515,8 @@ function countBy(n, x){
 //The correct answer would be 17.
 
 //Hint: Don't forget to check for bad values like null/undefined
+//give 2 solutions
+
 
 //solution 1
 function sheep(b){
