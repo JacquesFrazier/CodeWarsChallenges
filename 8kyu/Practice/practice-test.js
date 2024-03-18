@@ -594,7 +594,7 @@ function cards(c){
     "" : "spades"
   }
 
-  return c.replace()
+  return c[charAt()/c.length-1]
 }
 
 //31
