@@ -537,6 +537,9 @@ For example:
 //All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
 //solution
+function replace(n){
+  return n.replace(/[T]/, 'U')
+}
 
 //29
 //problem 
