@@ -586,7 +586,16 @@ function cards(c){
 
 
 //solution 2
+function cards(c){
+  const signs = {
+    "" : "clubs", 
+    "" : "diamonds", 
+    "" : "hearts", 
+    "" : "spades"
+  }
 
+  return c.replace()
+}
 
 //31
 //problem 
