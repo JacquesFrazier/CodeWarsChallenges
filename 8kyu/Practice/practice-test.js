@@ -619,6 +619,3 @@ function cards(c){
 //Note: for this kata y isn't considered a vowel.
 
 //solution 
-function takesString(s){
-  return s.remove(/[aeuoi]/g)
-}
