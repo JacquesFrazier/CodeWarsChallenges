@@ -586,16 +586,9 @@ function cards(c){
 
 
 //solution 2
-function cards(c){
-  const signs = {
-    "" : "clubs", 
-    "" : "diamonds", 
-    "" : "hearts", 
-    "" : "spades"
-  }
 
-  return c[charAt()/c.length-1]
-}
+
+
 
 //31
 //problem 
@@ -612,6 +605,12 @@ function cards(c){
 //If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
 
 //solution 
+function baby(s){
+  return s.contains('X') ? "Congradulations! You're going to have a daugther." 
+    : s.contains('Y') ? "Congradulations! You're going to have a son."
+    : "nothing";
+}
+
 
 
 //32
