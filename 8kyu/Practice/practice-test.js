@@ -605,11 +605,6 @@ function cards(c){
 //If the sperm contains the Y chromosome, return "Congratulations! You're going to have a son.";
 
 //solution 
-function baby(s){
-  return s.contains('X') ? "Congradulations! You're going to have a daugther." 
-    : s.contains('Y') ? "Congradulations! You're going to have a son."
-    : "nothing";
-}
 
 
 
@@ -624,4 +619,6 @@ function baby(s){
 //Note: for this kata y isn't considered a vowel.
 
 //solution 
-
+function takesString(s){
+  return s.remove(/[aeuoi]/g)
+}
