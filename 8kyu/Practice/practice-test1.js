@@ -68,6 +68,7 @@ function accepts(str, letter){
 //name + " does not play banjo"
 //Names given are always valid strings.
 
+//answer
 function playBanjo(name){
   return name[0].toLowerCase() === 'r' ? name + " plays banjo" : name + " does not play banjo"; 
 }
@@ -83,8 +84,9 @@ function playBanjo(name){
 //3, 3 --> 9
 //Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
 
-function lengthWidth(l, w){
-  return l === w ? l*w : 2*(l+w)
+//answer
+function lengthWidht(l, w){
+  return l === w ? l * w : 2 * (l + w)
 }
 
 
@@ -104,12 +106,14 @@ function lengthWidth(l, w){
 
 //16/4 = 4
 //3. The mean (or average) of this list is 4
+
+//answer 
 function findMean(average){
   let total = 0;
   for(let i = 0; i < average.length; i++){
-    total += average[i];
+    total += average[i]
   }
-  return total/average.length;
+  return total/average.length
 }
 
 //7
@@ -126,27 +130,28 @@ Examples(Operator, value1, value2) --> output
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7
 
-function arguments(operation, value1, value2){
-  switch(operation){
-    case '+':
-    return value1+value2;
+
+//answer 
+function arguments(operator, value1, value2){
+  switch(operator){
+    case "+" :
+      return value1 + value2;
     break;
-    case '-':
-    return value1-value2;
+    case '-' :
+      return value1 - value2;
     break;
-    case '*':
-    return value1*value2;
+    case '*' : 
+       return value1 * value2;
     break;
-    case '/':
-    return value1/value2;
+    case '/' : 
+       return value1 / value2;
     break;
-    default:
-    return 0;
+    default: 
+      return '0';
     break;
   }
 }
-
-
+  
 //8
 //problem
 //In javascript, Object is one of basic data types. Define an Object can use var obj=new Object() or var obj={}
@@ -164,6 +169,7 @@ function arguments(operation, value1, value2){
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
 //In the end, click "Submit" to submit your code pass this kata.
 
+//answer 
 function animal(obj){
   return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 }
@@ -175,7 +181,7 @@ function animal(obj){
 //For example:
 [1, 2, 3] --> [2, 4, 6]
 
-//do two versions of solution
+//2 answers
 function int(arr){
   return arr.map(x => x * 2)
 }
@@ -187,7 +193,6 @@ function int(arr){
   }
   return newArr;
 }
-
 
 //10
 //problem 
