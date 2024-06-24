@@ -14,10 +14,10 @@
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
-function findNeedle(haystack){
-  return "found the needle at position " + haystack.indexOf("needle");
+//answer 
+function findNeddle(haystack){
+  return "found the neddle at position " + haystack.indexOf('neddle'); 
 }
-
 
 //2
 //problem
@@ -31,10 +31,11 @@ function findNeedle(haystack){
 
 //patrick feeney => P.F
 
+//answer 
 function convert(name){
-  return name.split(' ').map((name)=> name[0]).join('.').toUpperCase()
+  return name.split(' ').map((name) => name[0].join('.').toUpperCase()
 }
-//did split('') instead of split(' ') but its alright
+
 
 //3
 //problem 
@@ -50,6 +51,7 @@ function convert(name){
 //str_count("Hello", 'l'); // returns 2
 //str_count("", 'z'); // returns 0
 
+//answer 
 function accepts(str, letter){
   return str.split('').filter(x => x === letter).length
 } 
