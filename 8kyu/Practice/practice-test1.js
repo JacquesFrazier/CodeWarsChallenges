@@ -211,6 +211,7 @@ s = 1
 0 <= m <= 59
 0 <= s <= 59
 
+//answer
 function time(h, s, m){
 
   //The constraints probably don't matter 
