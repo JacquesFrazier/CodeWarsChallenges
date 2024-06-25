@@ -13,6 +13,9 @@
 //Example(Input --> Output)
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
+function findNeddle(haystack){
+  return "found the needle at position " + haystack.indexOf('needle');
+}
 
 //answer 
 function findNeddle(haystack){
@@ -30,6 +33,9 @@ function findNeddle(haystack){
 //Sam Harris => S.H
 
 //patrick feeney => P.F
+function convert(name){
+  return name.split(' ').map((name) => name[0]).join('.').toUpperCase();
+}
 
 //answer 
 function convert(name){
@@ -50,6 +56,9 @@ function convert(name){
 //str_count("Hello", 'o'); // returns 1
 //str_count("Hello", 'l'); // returns 2
 //str_count("", 'z'); // returns 0
+function accepts(str, letter){
+  return str.split('').filter(x => x === letter).length;
+}
 
 //answer 
 function accepts(str, letter){
@@ -67,6 +76,9 @@ function accepts(str, letter){
 //name + " plays banjo" 
 //name + " does not play banjo"
 //Names given are always valid strings.
+function play(name){
+  return name[0].toLowerCase() === 'r' ? name + " plays banjo" : name + " does not play banjo";
+}
 
 //answer
 function playBanjo(name){
@@ -83,6 +95,9 @@ function playBanjo(name){
 //6, 10 --> 32
 //3, 3 --> 9
 //Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
+function lengthWidth(l, w){
+  return l === w ? l * w : 2 * (l + w)
+}
 
 //answer
 function lengthWidht(l, w){
@@ -106,6 +121,13 @@ function lengthWidht(l, w){
 
 //16/4 = 4
 //3. The mean (or average) of this list is 4
+function findMean(average){
+  let total = 0;
+  for(let i = 0; i < average.length; i++){
+    total += average[i];
+  }
+  return total/average.length;
+}
 
 //answer 
 function findMean(average){
@@ -129,7 +151,25 @@ Examples(Operator, value1, value2) --> output
 ('-', 15, 18) --> -3
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7
-
+function arguments(operator, value1, value2){
+  switch(operator){
+    case '+': 
+      return value1 + value2;
+    break;
+    case '-':
+      return value1 - value2;
+    break;
+    case '*':
+      return value1 * value2;
+    break;
+    case '/':
+      return value1 / value2;
+    break;
+    default: 
+      return '0';
+    break;
+  }
+}
 
 //answer 
 function arguments(operator, value1, value2){
@@ -168,6 +208,10 @@ function arguments(operator, value1, value2){
 //"This white dog has 4 legs."
 //When you have finished the work, click "Run Tests" to see if your code is working properly.
 //In the end, click "Submit" to submit your code pass this kata.
+function animal(obj){
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+}
+
 
 //answer 
 function animal(obj){
@@ -180,6 +224,16 @@ function animal(obj){
 
 //For example:
 [1, 2, 3] --> [2, 4, 6]
+function int(arr){
+  return arr.map((x)=> x*2)
+}
+function int(arr){
+  let newArr = [];
+  for(let i = 0; i < arr.length; i++){
+    newArr.push(arr[i] * 2)
+  }
+  return newArr;
+}
 
 //2 answers
 function int(arr){
