@@ -224,6 +224,7 @@ function animal(obj){
 
 //For example:
 [1, 2, 3] --> [2, 4, 6]
+
 function int(arr){
   return arr.map((x)=> x*2)
 }
@@ -265,6 +266,15 @@ s = 1
 0 <= m <= 59
 0 <= s <= 59
 
+function time(h, m, s){
+0 <= h <= 23
+0 <= m <= 59
+0 <= s <= 59
+
+  let milliseconds = (h*3600000) + (m*60000) + (s*1000)
+  return milliseconds;
+}
+
 //answer
 function time(h, s, m){
 
@@ -288,6 +298,13 @@ function time(h, s, m){
 //Note! The input is a Real number (actual type is language dependent) and is >= 0. 
 //The result should be an Integer.
 function speed(km){
+  let cm = 27.778;
+  let new = cm * km;
+  return Math.floor(new)
+}
+
+//answers
+function speed(km){
   let cm = 27.7778;
   let new = km * cm;
   return Math.floor(new);
@@ -307,12 +324,23 @@ n= 5, m=5: 25
 n=-5, m=5:  0
 
 function classWorkStudent(n, m){
+  
+}
+
+//answer
+function classWorkStudent(n, m){
   return n > 0 && m > 0 ? n * m : 0;
 }
 
 
 //13
 //Complete the function which converts a binary number (given as a string) to a decimal number.
+
+function convertBin(bin){
+ 
+}
+
+//answer
 function convertBin(bin){
   return parseInt(bin, 2)
 }
