@@ -271,8 +271,8 @@ function time(h, m, s){
 0 <= m <= 59
 0 <= s <= 59
 
-  let milliseconds = (h*3600000) + (m*60000) + (s*1000)
-  return milliseconds;
+  let millseconds = (h * 3600000) + (m * 60000) + (s * 1000);
+  return millseconds;
 }
 
 //answer
@@ -298,9 +298,9 @@ function time(h, s, m){
 //Note! The input is a Real number (actual type is language dependent) and is >= 0. 
 //The result should be an Integer.
 function speed(km){
-  let cm = 27.778;
+  let cm = 27.7778;
   let new = cm * km;
-  return Math.floor(new)
+  return new;
 }
 
 //answers
@@ -324,7 +324,7 @@ n= 5, m=5: 25
 n=-5, m=5:  0
 
 function classWorkStudent(n, m){
-  
+  return n > 0 && m > 0 ? return n * m : 0;
 }
 
 //answer
@@ -337,7 +337,7 @@ function classWorkStudent(n, m){
 //Complete the function which converts a binary number (given as a string) to a decimal number.
 
 function convertBin(bin){
- 
+ return parseInt(bin, 2)
 }
 
 //answer
