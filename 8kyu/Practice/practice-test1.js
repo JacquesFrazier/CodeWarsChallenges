@@ -155,6 +155,10 @@ Examples(Operator, value1, value2) --> output
 ('-', 15, 18) --> -3
 ('*', 5, 5) --> 25
 ('/', 49, 7) --> 7
+
+
+
+
 function arguments(operator, value1, value2){
   switch(operator){
     case '+': 
