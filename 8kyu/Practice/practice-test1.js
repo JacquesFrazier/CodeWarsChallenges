@@ -124,6 +124,7 @@ function lengthWidht(l, w){
 
 //16/4 = 4
 //3. The mean (or average) of this list is 4
+
 function findMean(average){
   let total = 0;
   for(let i = 0; i < average.length; i++){
