@@ -14,9 +14,6 @@
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 function findNeddle(haystack){
-  return "found the needle at position " + haystack.indexOf("needle")
-}
-function findNeddle(haystack){
   return "found the needle at position " + haystack.indexOf('needle');
 }
 
@@ -59,6 +56,7 @@ function convert(name){
 //str_count("Hello", 'o'); // returns 1
 //str_count("Hello", 'l'); // returns 2
 //str_count("", 'z'); // returns 0
+
 function accepts(str, letter){
   return str.split('').filter(x => x === letter).length;
 }
