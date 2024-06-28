@@ -77,6 +77,7 @@ function accepts(str, letter){
 //name + " plays banjo" 
 //name + " does not play banjo"
 //Names given are always valid strings.
+
 function play(name){
   return name[0].toLowerCase() === 'r' ? name + " plays banjo" : name + " does not play banjo";
 }
