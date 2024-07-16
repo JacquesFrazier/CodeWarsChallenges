@@ -12,6 +12,7 @@
 //Example(Input --> Output)
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
+
 function findNeddle(haystack){
   return "found the needle at position " + haystack.indexOf('needle');
 }
@@ -32,6 +33,7 @@ function findNeddle(haystack){
 //Sam Harris => S.H
 
 //patrick feeney => P.F
+
 function convert(name){
   return name.split(' ').map((name) => name[0]).join('.').toUpperCase();
 }
