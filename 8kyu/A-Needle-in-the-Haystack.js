@@ -11,6 +11,11 @@
 
 //["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
 
+function haystack(neddle){
+    return "found the neddle at position 5 " + neddle.imdexOf("needle"); 
+}
+
+
 //answer 1
 function findNeedle(haystack) {
     return "found the needle at position " + haystack.indexOf("needle");
@@ -57,3 +62,4 @@ function findNeedle(haystack) {
 function findNeedle(haystack){
     return "found the needle at position " + haystack.indexOf('needle'); 
 }
+
