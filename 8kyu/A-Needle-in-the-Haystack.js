@@ -13,7 +13,7 @@
 
 *hint
 funtion findNeedle(input){
-    return "string " + (intput).index("output"):;
+    return "string " + intput.index("output"):;
 }
 
 
@@ -63,6 +63,7 @@ function findNeedle(haystack) {
 function findNeedle(haystack){
     return "found the needle at position " + haystack.indexOf('needle'); 
 }
+
 
 
 
