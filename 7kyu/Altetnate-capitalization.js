@@ -51,3 +51,4 @@ function capitalize(s) {
         return acc;
     }, ['', '']);
 };
+
