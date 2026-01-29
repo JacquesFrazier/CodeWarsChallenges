@@ -59,3 +59,4 @@ function comp(a, b) {
     return a.map(x => x * x).sort().toString() === b.sort().toString();
 }
 
+
